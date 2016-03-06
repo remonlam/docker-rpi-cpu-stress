@@ -1,0 +1,3 @@
+# This is just a Raspbian Jessie container that runs a CPU stress tool
+
+## NOTE: this only run's on ARM v6, v7 and v8 CPU's like the Raspberry Pi...
