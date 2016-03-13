@@ -1,4 +1,4 @@
-FROM remonlam/rpi-rasbian
+FROM containerstack/rpi-raspbian-jessie
 MAINTAINER Remon Lam <remon@containerstack.io>
 
 #RUN echo "deb http://archive.raspberrypi.org/debian/ jessie main ui staging" >> /etc/apt/sources.list
