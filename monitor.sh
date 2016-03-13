@@ -29,7 +29,7 @@ function calculate_overvolts {
 temp=$(cat /sys/class/thermal/thermal_zone0/temp)
 temp=${temp/1000}
 let newtemp=$temp/1000
-echo "$newtemp"
+#echo "$newtemp"
 
 #volts=$(vcgencmd measure_volts)
 #volts=${volts:5:4}
@@ -55,6 +55,6 @@ echo "Temperature:   $newtemp C"
 echo "Min speed:     $minFreq MHz"
 echo "Max speed:     $maxFreq MHz"
 echo "Current speed: $freq MHz"
-echo "Governor:      $governor"
+#echo "Governor:      $governor"
 
 exit 0
