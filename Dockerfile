@@ -12,9 +12,3 @@ RUN chmod 755 /start.sh /monitor.sh /cpustress.sh
 #CMD ["bash", "/start.sh"]
 #CMD ["watch --interval=1", "./start.sh"
 CMD ["./start.sh"]
-
-
-
-
-# deps
-sudo apt-get update && sudo apt-get install sysbench -y
