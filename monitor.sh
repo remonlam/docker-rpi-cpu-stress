@@ -34,9 +34,9 @@ echo "$newtemp"
 #volts=$(vcgencmd measure_volts)
 #volts=${volts:5:4}
 
-if [ $volts != "1.20" ]; then
-    overvolts=$(calculate_overvolts $volts)
-fi
+#if [ $volts != "1.20" ]; then
+#    overvolts=$(calculate_overvolts $volts)
+#fi
 
 minFreq=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq)
 minFreq=$(convert_to_MHz $minFreq)
