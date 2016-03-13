@@ -27,10 +27,12 @@ function calculate_overvolts {
 }
 
 temp=$(cat /sys/class/thermal/thermal_zone0/temp)
-temp=${temp:5:4}
+temp=${temp/1000}
+let newtemp=$temp/1000
+echo "$newtemp"
 
-volts=$(vcgencmd measure_volts)
-volts=${volts:5:4}
+#volts=$(vcgencmd measure_volts)
+#volts=${volts:5:4}
 
 if [ $volts != "1.20" ]; then
     overvolts=$(calculate_overvolts $volts)
@@ -47,9 +49,9 @@ freq=$(convert_to_MHz $freq)
 
 governor=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor)
 
-echo "Temperature:   $temp C"
-echo -n "Voltage:       $volts V"
-[ $overvolts ] && echo " (+0.$overvolts overvolt)" || echo -e "\r"
+echo "Temperature:   $newtemp C"
+#echo -n "Voltage:       $volts V"
+#[ $overvolts ] && echo " (+0.$overvolts overvolt)" || echo -e "\r"
 echo "Min speed:     $minFreq MHz"
 echo "Max speed:     $maxFreq MHz"
 echo "Current speed: $freq MHz"
