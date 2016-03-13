@@ -1,3 +1,3 @@
 #!/bin/sh
 # Start monitor output and cpu stress script
-./monitor.sh & ./cpustress.sh
+./cpustress.sh & watch --interval=1 ./monitor.sh
