@@ -11,7 +11,7 @@ RUN chmod 755 /start.sh /monitor.sh /cpustress.sh
 # Could be removed later on
 #CMD ["bash", "/start.sh"]
 #CMD ["watch --interval=1", "./start.sh"
-CMD ["./start.sh"
+CMD ["./start.sh"]
 
 
 
