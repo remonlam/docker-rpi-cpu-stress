@@ -1,0 +1,52 @@
+# rpi-zero
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:32:04 2016
+
+Temperature:   44 C
+Min speed:     700 MHz
+Max speed:     1000 MHz
+Current speed: 1000 MHz
+
+
+# rpi1b
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:32:29 2016
+
+Temperature:   35 C
+Min speed:     700 MHz
+Max speed:     700 MHz
+Current speed: 700 MHz
+
+
+# rpi2b
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:32:44 2016
+
+Temperature:   52 C
+Min speed:     600 MHz
+Max speed:     900 MHz
+Current speed: 900 MHz
+
+
+# rpi3-nh
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:33:13 2016
+
+Temperature:   82 C
+Min speed:     600 MHz
+Max speed:     1200 MHz
+Current speed: 1200 MHz
+
+
+# rpi3-ah
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:33:32 2016
+
+Temperature:   80 C
+Min speed:     600 MHz
+Max speed:     1200 MHz
+Current speed: 1200 MHz
+
+
+# rpi3-ch
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:33:56 2016
+
+Temperature:   80 C
+Min speed:     600 MHz
+Max speed:     1200 MHz
+Current speed: 1200 MHz
