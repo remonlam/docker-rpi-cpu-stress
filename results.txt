@@ -6,8 +6,16 @@ Min speed:     700 MHz
 Max speed:     1000 MHz
 Current speed: 1000 MHz
 
+# rpi1
+Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:32:16 2016
 
-# rpi1b
+Temperature:   45 C
+Min speed:     700 MHz
+Max speed:     700 MHz
+Current speed: 700 MHz
+
+
+# rpi1b+
 Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:32:29 2016
 
 Temperature:   35 C
