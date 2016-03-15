@@ -15,6 +15,15 @@ Max speed:     700 MHz
 Current speed: 700 MHz
 
 
+# rpia+
+Every 1.0s: ./monitor.sh                                                                                                                                                               Tue Mar 14 07:32:21 2016
+
+Temperature:   36 C
+Min speed:     700 MHz
+Max speed:     700 MHz
+Current speed: 700 MHz
+
+
 # rpi1b+
 Every 1.0s: ./monitor.sh                                                                                                                                                               Mon Mar 14 07:32:29 2016
 
